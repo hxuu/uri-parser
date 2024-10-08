@@ -11,3 +11,7 @@ This backlog will discuss decisions taken during the course of this project.
 5. After extracting each component, the slicing (uri = uri.slice(...)) should be carefully handled to avoid issues with extra characters (like /, ?, or #).
 6. You may want to consider handling cases where the input URI might be malformed or incomplete. This might include checking for empty strings or invalid formats.
 
+## Day 3 - things to be done right now.
+
+1/ finish percent encoding
+2/ create a good regex for the URI components.
