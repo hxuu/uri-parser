@@ -3,8 +3,6 @@
 //    - reserved characters.
 //    - unreserved  = ALPHA / DIGIT, "-", ".", "_", "~"
 
-const reserved = [":", "/", "?", "#", "[", "]", "@"];
-const unreserved = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-._~".split('');
 
 
 //Only time this should happen is when generating the URI (according to RFC 3986)

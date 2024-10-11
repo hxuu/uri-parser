@@ -15,3 +15,16 @@ This backlog will discuss decisions taken during the course of this project.
 
 1/ finish percent encoding
 2/ create a good regex for the URI components.
+
+## Day 4 - Created URI Regex utility
+
+For now error handling is missing, as well as a lot of verbose commenting.
+
+### To-Do List
+
+1. **Standardize Regex**: Ensure consistent use of `RegExp` and string formats.
+2. **Simplify Patterns**: Remove redundant definitions like `path_empty`.
+3. **Refine Comments**: Streamline comments for clarity.
+4. **Implement Tests**: Create unit tests for regex patterns.
+5. **Add Validation**: Write utility functions for URI validation.
+6. **Document Utilities**: Improve documentation for usage.
